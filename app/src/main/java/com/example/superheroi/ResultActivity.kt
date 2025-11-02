@@ -66,7 +66,7 @@ class ResultActivity : AppCompatActivity() {
         }
 
         githubButton.setOnClickListener {
-            val githubUrl = "https://github.com/Arthur-jpg/dev-mobile-2025.2/tree/main/projetoSuperHeroi"
+            val githubUrl = "https://github.com/Arthur-jpg/AC-DevMobile-Super"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl))
             startActivity(intent)
         }
