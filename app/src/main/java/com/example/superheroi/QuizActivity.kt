@@ -134,8 +134,7 @@ class QuizActivity : AppCompatActivity() {
                 R.id.option7RadioButton -> 6
                 else -> 0
             }
-            
-            // Adicionar ponto para o herói correspondente
+
             val selectedHero = questionHeroes[currentQuestionIndex][selectedIndex]
             
             when (selectedHero) {
@@ -149,13 +148,11 @@ class QuizActivity : AppCompatActivity() {
             }
             
             Log.d("QuizActivity", "Resposta: $selectedHero - Pontos: ironman=$ironmanScore, hulk=$hulkScore, captain=$captainScore, strange=$strangeScore, thor=$thorScore, blackwidow=$blackwidowScore, spiderman=$spidermanScore")
-            
-            // Ir para próxima pergunta ou mostrar resultado
+
             if (currentQuestionIndex < questions.size - 1) {
                 currentQuestionIndex++
                 showQuestion()
             } else {
-                // Acabou o quiz! Descobrir o vencedor
                 val scores = listOf(
                     Pair("ironman", ironmanScore),
                     Pair("hulk", hulkScore),

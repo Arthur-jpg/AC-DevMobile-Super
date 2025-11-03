@@ -14,7 +14,6 @@
         android:padding="24dp"
         android:gravity="center_horizontal">
 
-        <!-- Result Title -->
         <TextView
             android:id="@+id/resultTitleTextView"
             android:layout_width="match_parent"
@@ -26,7 +25,6 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <!-- Hero Image -->
         <ImageView
             android:id="@+id/heroImageView"
             android:layout_width="200dp"
@@ -36,7 +34,6 @@
             android:scaleType="centerCrop"
             tools:src="@drawable/ic_launcher_foreground" />
 
-        <!-- Hero Name -->
         <TextView
             android:id="@+id/heroNameTextView"
             android:layout_width="match_parent"
@@ -48,7 +45,6 @@
             android:textStyle="bold"
             tools:text="Homem de Ferro" />
 
-        <!-- Hero Description -->
         <TextView
             android:id="@+id/heroDescriptionTextView"
             android:layout_width="match_parent"
@@ -62,7 +58,6 @@
             android:background="#FFFFFF"
             tools:text="Você é inovador e inteligente" />
 
-        <!-- Share Button -->
         <Button
             android:id="@+id/shareButton"
             android:layout_width="match_parent"
@@ -72,7 +67,6 @@
             android:textSize="16sp"
             android:padding="16dp" />
 
-        <!-- GitHub Button -->
         <Button
             android:id="@+id/githubButton"
             android:layout_width="match_parent"
@@ -82,7 +76,6 @@
             android:textSize="16sp"
             android:padding="16dp" />
 
-        <!-- Restart Button -->
         <Button
             android:id="@+id/restartButton"
             android:layout_width="match_parent"

@@ -25,7 +25,6 @@
             android:contentDescription="Logo Super Herói"
             android:src="@drawable/logo_heroes" />
 
-        <!-- Title TextView -->
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
@@ -37,7 +36,6 @@
             android:textSize="28sp"
             android:textStyle="bold" />
 
-        <!-- Subtitle TextView -->
         <TextView
             android:id="@+id/subtitleTextView"
             android:layout_width="match_parent"
@@ -48,7 +46,6 @@
             android:textColor="#666666"
             android:textSize="16sp" />
 
-        <!-- Name EditText -->
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
@@ -60,7 +57,6 @@
             android:background="#FFFFFF"
             android:maxLines="1" />
 
-        <!-- Terms CheckBox -->
         <CheckBox
             android:id="@+id/termsCheckBox"
             android:layout_width="match_parent"
@@ -70,7 +66,6 @@
             android:textColor="#333333"
             android:textSize="14sp" />
 
-        <!-- Start Quiz Button -->
         <Button
             android:id="@+id/startQuizButton"
             android:layout_width="match_parent"

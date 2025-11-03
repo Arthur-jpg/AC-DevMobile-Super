@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- Title -->
         <TextView
             android:id="@+id/tiebreakerTitleTextView"
             android:layout_width="match_parent"
@@ -25,7 +24,7 @@
             android:textSize="28sp"
             android:textStyle="bold" />
 
-        <!-- Subtitle -->
+
         <TextView
             android:id="@+id/tiebreakerSubtitleTextView"
             android:layout_width="match_parent"
@@ -36,15 +35,15 @@
             android:textColor="#333333"
             android:textSize="16sp" />
 
-        <!-- Heroes Container -->
+
         <LinearLayout
             android:id="@+id/heroesLinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:orientation="vertical">
-            
-            <!-- Hero cards will be added programmatically here -->
+
+
         </LinearLayout>
 
     </LinearLayout>
